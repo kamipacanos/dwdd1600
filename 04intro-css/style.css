@@ -1,0 +1,88 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+}
+
+
+/* Header Styling */ 
+header {
+    background-color: #c62828;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+}
+
+
+/* Navigation Styling */ 
+nav ul {
+    display: flex; 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+}
+
+nav li {
+    padding: 15px 20px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: white;
+}
+
+/* hover pseudo class */
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Main */
+
+main {
+    padding: 20px;
+}
+
+/* heading styles */
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #ddd;
+}
+
+/* paragraph */
+
+p {
+    line-height: 1.6;
+}
+
+/* lists */
+
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+/* Borders */
+
+main {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}

@@ -33,9 +33,14 @@ nav a {
     color: white;
 }
 
-/* hover pseudo class */
+/* current page tab */
+nav li.active {
+    background-color: #ffcc00;
+}
+
+/* hover menu text color */
 nav a:hover {
-    color: #ffcc00;
+    color: red;
 }
 
 /* Main */
@@ -69,6 +74,19 @@ ol {
 
 ol li {
     margin-bottom: 15px;
+}
+
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
 }
 
 /* Borders */

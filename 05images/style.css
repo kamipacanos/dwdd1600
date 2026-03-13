@@ -1,0 +1,162 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+}
+
+
+/* Header Styling */ 
+header {
+    background-color: #c62828;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+}
+
+
+/* Navigation Styling */ 
+nav ul {
+    display: flex; 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+}
+
+nav li {
+    padding: 15px 20px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: white;
+}
+
+/* current page tab */
+nav li.active {
+    background-color: #ffcc00;
+}
+
+/* hover menu text color */
+nav a:hover {
+    color: red;
+}
+
+/* Main */
+
+main {
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+    overflow: auto;
+}
+
+
+/* heading styles */
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+/* paragraph */
+
+p {
+    line-height: 1.6;
+}
+
+/* lists */
+
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Borders */
+
+main {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+
+/* home page image */
+
+figure.home-image {
+    float: right;
+    width: 20%;
+    margin: 0 0 20px 20px;
+}
+
+figure.home-image img {
+    width: 100%;
+    height: auto;
+}
+
+figure.home-image figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+/* gallery stuff here */
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+    justify-content: center;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #376259;
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    clear: both;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kami Allred">
+    <meta name="description" content="Plan Your First Trip to Japan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <title>GoGo Japan | Plan Your First Trip to Japan</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <img src="images/logo.png" alt="GoGo Japan logo featuring a stylized bird" width="59" height="50">
+        <span>GoGo Japan</span>
+    </header>
+
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Travel Hub</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="itineraries.html">Itineraries</a></li>
+            <li><a href="essentials.html">Essentials</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="request.html">Trip Request</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- start the main context -->
+    <main>
+        <h1>Build Your Japan Trip</h1>
+        <p>Tell us a little about your travel plans and preferences so we can help you shape the perfect first trip to Japan.</p>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Traveler Details</legend>
+                <label>Full Name* <input type="text" name="fname" required></label>
+                <label>Email Address* <input type="email" name="email" required></label>
+                <label>Phone Number<input type="tel" name="phone" placeholder="888-888-8888"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Trip Preferences</legend>
+                <label>Travel Season*<select name="season" required>
+                        <option value="none">Please Select</option>
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                        <option value="fall">Fall</option>
+                        <option value="winter">Winter</option>
+                    </select>
+                </label>
+
+                <p class="form-heading">What kind of traveler are you?*</p>
+
+                <label><input type="radio" name="traveler" value="foodie" required>Food Lover</label>
+                <label><input type="radio" name="traveler" value="culture">Culture Explorer</label>
+                <label><input type="radio" name="traveler" value="city">Big City Adventurer</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Must-Do Experiences</legend>
+                <p class="form-heading">Choose at least three activities that interest you:</p>
+
+                <label><input type="checkbox" name="activities" value="temples">Visit temples and shrines</label>
+                <label><input type="checkbox" name="activities" value="shopping">Go shopping in city districts</label>
+                <label><input type="checkbox" name="activities" value="food">Try local food spots</label>
+                <label><input type="checkbox" name="activities" value="nature">Explore nature and scenic spots</label>
+                <label><input type="checkbox" name="activities" value="anime">Experience anime and pop culture</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Extra Notes</legend>
+                <label>What should be included in your ideal trip? <textarea name="notes" rows="6"
+                placeholder="Example: I want a beginner-friendly trip with great food, easy train travel, and a mix of Kyoto and Tokyo."></textarea></label>
+            </fieldset>
+
+            <input type="submit" value="Send Trip Request">
+        </form>
+    </main>
+
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2025 &bull; Kami Allred &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>

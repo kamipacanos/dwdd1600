@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southern California Escapes | Home</title>
+    <meta name="description"
+        content="Southern California Escapes helps travelers plan beach, theme park, and family vacations in Southern California.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Southern California Escapes</h1>
+        <p>From beach sunsets to magical adventures</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="page-title">
+            <h2>Contact Information</h2>
+            <p>Fill out the form below and we’ll help you plan your Southern California escape.</p>
+        </section>
+
+        <form class="contact-form" method="get" action="thanks.html">
+            <fieldset>
+                <legend>Traveler Details</legend>
+
+                <label for="fullname">Full Name*</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+            </fieldset>
+
+            <fieldset>
+                <legend>Trip Preferences</legend>
+
+                <label for="destination">Favorite Destination*</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Please Select</option>
+                    <option value="lajolla">La Jolla Cove</option>
+                    <option value="zoo">San Diego Zoo</option>
+                    <option value="oldtown">Old Town San Diego</option>
+                    <option value="carlsbad">Carlsbad</option>
+                    <option value="legoland">LEGOLAND California</option>
+                    <option value="disneyland">Disneyland</option>
+                </select>
+
+                <p class="form-label">Preferred Package*</p>
+
+                <label class="choice">
+                    <input type="radio" name="package" value="family" required>
+                    Family Fun Package
+                </label>
+
+                <label class="choice">
+                    <input type="radio" name="package" value="coastal">
+                    Coastal Escape
+                </label>
+
+                <label class="choice">
+                    <input type="radio" name="package" value="explorer">
+                    Explorer Package
+                </label>
+
+                <label for="comments">Questions or Comments</label>
+                <textarea id="comments" name="comments" rows="6"
+                    placeholder="Tell us what kind of trip you are hoping for..."></textarea>
+            </fieldset>
+
+            <input class="submit-button" type="submit" value="Send Trip Request">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Southern California Escapes &bull; Built by Kami-Jane Allred</p>
+    </footer>
+</body>
+
+</html>
